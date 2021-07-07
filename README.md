@@ -18,15 +18,15 @@ Compile the project:
 Once the compilation process ends, you can upload the compiled code inside the ESP32 board.
 
 ```
-    idf.py -p /dev/ttyUSBx flash
+    idf.py -p COM3 flash
 ```
 Replace _ttyUSBx_ with the device on which the ESP32 is connected.
 Repeat the same process on all the required devices, then open the serial monitor of the connected ESP32 to display its routing table
 
 ```
-    idf.py -p /dev/ttyUSBx monitor
+    idf.py -p COM3 monitor
 ```
-Replace _ttyUSBx_ with the device on which the ESP32 is connected.
+Replace COMx with the device on which the ESP32 is connected.
 
 ## Pre-requisites
 
