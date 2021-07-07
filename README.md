@@ -32,4 +32,4 @@ Replace COMx with the device on which the ESP32 is connected.
 
 - Two or more ESP32 boards
 - Download the ESP-IDF Official Development framework [here](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html#step-2-get-esp-idf)
-- Git (Optional)
+- Git (Optional)[here](https://git-scm.com/downloads)
