@@ -8,7 +8,7 @@ Clone the __BLUES__ Repository first:
 __In Linux Terminal__
 ```
     git clone https://github.com/sinku1196/BLE_Mesh.git
-    cd BLUES-esp32/
+    cd BLE_Mesh/
 ```
 Compile the project:
 
