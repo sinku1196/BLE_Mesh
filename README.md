@@ -1,9 +1,9 @@
 # BLE_Mesh
 ESP32 Bluetooth Low Energy Mesh
 
-# Create a BLUES mesh network!
+# Create a mesh network!
 
-Clone the __BLUES__ Repository first:
+Clone the __BLE_Mesh__ Repository first:
 
 __In Linux Terminal__
 ```
