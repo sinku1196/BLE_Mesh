@@ -5,7 +5,7 @@ ESP32 Bluetooth Low Energy Mesh
 
 Clone the __BLE_Mesh__ Repository first:
 
-__In Linux Terminal__
+__In ESP-IDF Command Prompt__
 ```
     git clone https://github.com/sinku1196/BLE_Mesh.git
     cd BLE_Mesh/
@@ -20,7 +20,7 @@ Once the compilation process ends, you can upload the compiled code inside the E
 ```
     idf.py -p COM3 flash
 ```
-Replace _ttyUSBx_ with the device on which the ESP32 is connected.
+Replace _COMx_ with the device on which the ESP32 is connected.
 Repeat the same process on all the required devices, then open the serial monitor of the connected ESP32 to display its routing table
 
 ```
@@ -32,3 +32,4 @@ Replace COMx with the device on which the ESP32 is connected.
 
 - Two or more ESP32 boards
 - Download the ESP-IDF Official Development framework [here](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html#step-2-get-esp-idf)
+- Git (Optional)
